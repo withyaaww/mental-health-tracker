@@ -25,8 +25,6 @@ SECRET_KEY = 'django-insecure-d=avdgz3smo7m6%vy(89w%#4%v9@!lh(h3tiittwlth!23clvl
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
 
 # Application definition
 
@@ -65,6 +63,11 @@ TEMPLATES = [
                 'django.contrib.messages.context_processors.messages',
             ],
         },
+   
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'DIRS': [BASE_DIR / 'templates'], # Tambahkan konten baris ini
+        'APP_DIRS': True,
+  
     },
 ]
 
@@ -124,3 +127,5 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 ALLOWED_HOSTS = ["localhost", "127.0.0.1", "widya-mutia-mentalhealthtracker.pbp.cs.ui.ac.id"]
+
+CSRF_TRUSTED_ORIGINS = ["http://localhost","http://127.0.0.1","http://widya-mutia-mentalhealthtracker.pbp.cs.ui.ac.id/", "https:IURJhkP4h9pFhVuA3auH2MAmsx619Xk"]
