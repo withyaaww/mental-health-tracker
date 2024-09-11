@@ -128,4 +128,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 ALLOWED_HOSTS = ["localhost", "127.0.0.1", "widya-mutia-mentalhealthtracker.pbp.cs.ui.ac.id"]
 
-CSRF_TRUSTED_ORIGINS = ["http://localhost","http://127.0.0.1","http://widya-mutia-mentalhealthtracker.pbp.cs.ui.ac.id/", "https:IURJhkP4h9pFhVuA3auH2MAmsx619Xk"]
+CSRF_TRUSTED_ORIGINS = ["http://localhost","http://127.0.0.1","http://widya-mutia-mentalhealthtracker.pbp.cs.ui.ac.id/", "https://widya-mutia-mentalhealthtracker.pbp.cs.ui.ac.id/"]
